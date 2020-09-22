@@ -5,7 +5,7 @@
 
 .wrapper {
     position: relative;
-    height: 100vh;
+    height: 95vh;
 }
 
 .wrapper-circle {
@@ -64,4 +64,34 @@
     100% {
         box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
     }
+}
+
+header {
+    background: #132743;
+}
+
+nav {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.menu-nav {
+    display: flex;
+}
+
+.menu-nav li {
+    list-style-type: none;
+}
+
+.menu-nav a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.menu-nav a:hover {
+    background: #0c1828;
 }
